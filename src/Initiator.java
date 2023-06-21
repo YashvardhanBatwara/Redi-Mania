@@ -35,7 +35,9 @@ public class Initiator {
                         String mobile = sc.nextLine();
                         new UserRegistration(name, BITSid, email, mobile);
                         //UserRegistration class is called with the parameters being the user's data gathered using the scanner
-                        System.out.println("You can now login to use the service. ");
+                        if(email.endsWith("@pilani.bits-pilani.ac.in")){
+                            System.out.println("You can now login to use the service. ");
+                        }
                         Initiate();
                         break;
                     case 2: System.out.println("Enter the following details :");
