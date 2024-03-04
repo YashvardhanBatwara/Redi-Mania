@@ -4,3 +4,4 @@ Multiple-Restaurant Management System built in Java having support for admin as 
 <B>Contributors</B>:<br>
 Yashvardhan Batwara<br>
 Hardik Gupta<br>
+Garvit Singhal<br>
